@@ -1,17 +1,5 @@
 ---
 
-# TEA-BOT
-
-Bot otomatis untuk
-**deploy**
-**transfer**
-**burn** 
-
-## Owner
-**t.me/didinska**
-
----
-
 ## Fitur
 - [x] Auto Transfer token ke banyak address
 - [x] Auto Deploy token ERC20
