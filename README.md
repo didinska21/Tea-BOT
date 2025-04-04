@@ -22,7 +22,7 @@ Bot otomatis untuk **deploy**, **transfer**, dan **burn** token ERC20 di jaringa
 
 1. Clone repository:
 ```bash
-git clone https://github.com/username/Tea-BOT.git
+git clone https://github.com/didinska21/Tea-BOT.git
 cd Tea-BOT
 
 2. Install dependencies:
@@ -131,16 +131,3 @@ Catatan
 Proyek ini hanya untuk pengujian di testnet.
 
 Jangan gunakan private key wallet utama.
-
-
-
----
-
-License
-
-MIT
-
----
-
-Kalau kamu ingin saya bantu generate versi markdown yang lebih fancy dengan badge atau logo, tinggal bilang saja!
-
