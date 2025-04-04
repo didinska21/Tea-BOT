@@ -2,7 +2,10 @@
 
 # TEA-BOT
 
-Bot otomatis untuk **deploy**, **transfer**, dan **burn** token ERC20 di jaringan **TEA Sepolia Testnet**.
+Bot otomatis untuk
+**deploy**
+**transfer**
+**burn** 
 
 ## Owner
 **t.me/didinska**
