@@ -10,45 +10,36 @@
 1. Clone repository:
 ```bash
 git clone https://github.com/didinska21/Tea-BOT.git
-cd Tea-BOT
+cd Tea-BOT```
 
 2. Install dependencies:
 
 
 
-npm install
+```npm install```
 
-3. Buat file .env dan isi dengan private key wallet:
+3. Buat file ```.env``` dan isi dengan private key wallet:
 
 
 
-PRIVATE_KEY=0x123456789abcdef...
+```PRIVATE_KEY=0x123456789abcdef...```
 
 4. Siapkan file address.json (untuk transfer) berisi daftar address tujuan dalam format:
 
 
 
-[
+```[
   "0xAddress1",
   "0xAddress2"
-]
+]```
 
 
 ---
 
-Cara Penggunaan
-
-1. Menu Utama
-
-node index.js
-
-Akan muncul pilihan:
-
-TEA AUTO TRANSFER
-
-TEA DEPLOY
-
-TEA BURN
+Cara Penggunaan :
+1. node main.js ( untuk auto transfer )
+2. node deploy.js ( untuk deploy smart contract )
+3. node burn.js ( untuk mengurangi supply token deploy )
 
 
 Pilih menu sesuai kebutuhan.
