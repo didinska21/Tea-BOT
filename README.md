@@ -1,13 +1,9 @@
----
-
 ## Fitur
 - [x] Auto Transfer token ke banyak address
 - [x] Auto Deploy token ERC20
 - [x] Burn token yang sudah dideploy
 - [x] Tampilan CLI menarik dengan banner & warna
 - [x] Menu utama (index.js) untuk akses fitur cepat
-
----
 
 ## Instalasi
 
