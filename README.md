@@ -12,23 +12,25 @@
 git clone https://github.com/didinska21/Tea-BOT.git
 cd Tea-BOT```
 
+##
+
 2. Install dependencies:
-
-
 
 ```bash
 npm install```
 
+##
+
 3. Buat file .env dan isi dengan private key wallet:
 
-
+##
 
 ```bash
 PRIVATE_KEY=0x123456789abcdef...```
 
 4. Siapkan file address.json (untuk transfer) berisi daftar address tujuan dalam format:
 
-
+##
 
 ```bash
 [
