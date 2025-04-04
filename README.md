@@ -4,4 +4,9 @@
 3. AUTO BURN
 
 ## TUTORIAL INSTALL
-1. git clone 
+1. ```bash
+   git clone https://github.com/didinska21/Tea-BOT.git
+   ```
+2. ```bash
+   cd Tea-BOT
+   ```
