@@ -23,19 +23,64 @@ Bot otomatis untuk **deploy**, **transfer**, dan **burn** token ERC20 di jaringa
 git clone https://github.com/didinska21/Tea-BOT.git
 cd Tea-BOT
 ```
-### Install module
+### 2. Install module
 ```bash
 npm install
 ```
-### Buat file .env masukkan private key disini.
+### 3. Buat file .env masukkan private key disini.
 ```bash
 PRIVATE_KEY=0xyourprivatekeyhere
 ```
-### Buat file address.json masukkan address target. 
+### 4. Buat file address.json masukkan address target. 
 berikut formatnya
 ```bash
 [
   "0x123...",
   "0xabc..."
 ]
+```
+## Menjalankan SCRIPT.
+### auto transfer
+```bash
+node main.js
+```
+### deploy smart contract
+```bash
+node deploy.js
+```
+### burn token deploy
+```bash
+node burn.js
+```
+## Struktur Folder
+```bash
+Tea-BOT/
+│
+├── address.json              // Daftar address tujuan
+├── .env                      // Private key
+├── build/abi.json            // ABI hasil compile
+│
+├── index.js                  // Menu utama
+├── main.js                   // Auto transfer
+├── deploy.js                 // Auto deploy token
+├── burn.js                   // Burn token
+├── generateContractCode.js   // Buat & compile smart contract ERC20
+```
+## Tips & Catatan 
+
+Proyek ini hanya untuk pengujian testnet
+
+Gunakan wallet testnet, bukan wallet utama
+
+Pastikan saldo TEA cukup untuk gas fee dan transfer
+
+Explorer resmi: https://sepolia.tea.xyz/
+
+### RPC SEPOLIA TEA TESTNET
+```bash
+name :Tea Sepolia Testnet
+url : https://tea-sepolia.g.alchemy.com/public
+chain : 10218
+symbol : TEA
+explorer : sepolia.tea.xyz/
 ```
