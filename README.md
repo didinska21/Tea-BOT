@@ -59,8 +59,6 @@ Tea-BOT/
 ├── address.json              // Daftar address tujuan
 ├── .env                      // Private key
 ├── build/abi.json            // ABI hasil compile
-│
-├── index.js                  // Menu utama
 ├── main.js                   // Auto transfer
 ├── deploy.js                 // Auto deploy token
 ├── burn.js                   // Burn token
