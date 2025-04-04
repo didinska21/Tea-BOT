@@ -16,19 +16,22 @@ cd Tea-BOT```
 
 
 
-```npm install```
+```bash
+npm install```
 
-3. Buat file ```.env``` dan isi dengan private key wallet:
+3. Buat file .env dan isi dengan private key wallet:
 
 
 
-```PRIVATE_KEY=0x123456789abcdef...```
+```bash
+PRIVATE_KEY=0x123456789abcdef...```
 
 4. Siapkan file address.json (untuk transfer) berisi daftar address tujuan dalam format:
 
 
 
-```[
+```bash
+[
   "0xAddress1",
   "0xAddress2"
 ]```
