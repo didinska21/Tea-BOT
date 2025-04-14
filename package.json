@@ -5,7 +5,7 @@
     "dotenv": "^16.4.7",
     "ethers": "^5.8.0",
     "figlet": "^1.8.0",
-    "gradient-string": "^3.0.0",
+    "gradient-string": "^1.1.0",
     "inquirer": "^8.2.4",
     "solc": "^0.8.29"
   }
